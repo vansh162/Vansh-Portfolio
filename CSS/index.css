@@ -1,0 +1,542 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white !important;
+}
+
+body {
+    background-color: black;
+}
+
+/* --------------start of nav css---------------------- */
+.logo {
+    font-family: WindSong;
+}
+
+.navbar {
+    margin-left: 200px;
+}
+
+.nav-item {
+    margin-left: 35px;
+}
+
+.logoli {
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: -15px;
+}
+
+/* ---------------end of nav css---------------------------- */
+
+/* --------------start of section 1 css------------------- */
+.myimg {
+    height: 550px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.content{
+    margin-left: 400px;
+}
+
+.im {
+    display: block;
+    margin-top: 50px;
+    margin-left: -200px;
+    font-size: 60px;
+}
+
+.vt {
+    display: block;
+    font-size: 70px;
+    margin-left: -200px;
+    margin-top: -10px;
+}
+
+.aiaa {
+    display: block;
+    font-size: 60px;
+    margin-left: -200px;
+    margin-top: -10px;
+
+}
+
+.fsd {
+    display: block;
+    font-size: 70px;
+    margin-top: -10px;
+    width: 750px;
+    margin-left: -200px;
+}
+.mouse-wrap {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px;
+    z-index: 9;
+  }
+  
+  .mouse-wrap:active, .mouse-wrap:active > .mouse-label, .mouse-wrap:focus, .mouse-wrap:focus > .mouse-label {
+    outline: none;
+  }
+  
+  .mouse-wrap.mouse-with-slider {
+    bottom: -50px;
+  }
+  
+  .mouse-wrap .mouse-label {
+    top: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+  }
+  
+  .mouse-wrap.dark .mouse-label {
+    color: #000;
+  }
+  
+  .mouse-wrap.dark .mouse {
+    border: 2px solid #000;
+  }
+  
+  .mouse-wrap.dark .mouse .scroll {
+    background: #000;
+  }
+  
+  .mouse-wrap .mouse {
+    position: absolute;
+    width: 22px;
+    height: 42px;
+    bottom: 30px;
+    display: block;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    -webkit-animation: intro 2s;
+    animation: intro 2s;
+  }
+  
+  .mouse-wrap .mouse .scroll {
+    display: block;
+    width: 3px;
+    height: 3px;
+    margin: 6px auto;
+    border-radius: 4px;
+    background: #fff;
+    -webkit-animation: finger 2s infinite;
+    animation: finger 2s infinite;
+  }
+  @-webkit-keyframes intro {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes intro {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @-webkit-keyframes finger {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  
+  @keyframes finger {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  .scrolldiv{
+    margin-top: 630px;
+    margin-left: -1500px;
+    text-decoration: none;
+  }
+
+/* ----------------------end of section 1 css------------------ */
+
+/* -------------------start of section 2 css-------------------- */
+.vdo{
+  height: 400px;
+  width: 600px;
+}
+.hov1{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov1spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin1{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov2{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov2spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin2{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov3{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov3spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin3{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov4{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov4spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin4{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov5{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov5spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin5{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov6{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov6spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin6{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+
+/* -------------------end of section 2 css--------------------------- */
+
+/* ---------------------start of section 3 css--------------------- */
+.myimg2{
+  padding-left: 250px;
+  height: 400px;
+  width: 500px;
+}
+/* ---------------------end of section 3 css------------------------- */
+
+/* ------------------------start of section 5 css---------------------- */
+.counter-v1 .number-wrap {
+  display: block;
+}
+
+.counter-v1 .number-wrap .number {
+  font-size: 69px;
+  font-weight: 900;
+  font-family: "Arimo", sans-serif;
+  color: #D63447;
+}
+
+.counter-v1 .number-wrap .append-text {
+  position: relative;
+  top: -30px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.counter-v1 .counter-label {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: 11px;
+  font-weight: 900;
+}
+/* ------------------------end of section 5 css---------------------- */
+
+/* ---------------------------start of section 6 css--------------------------- */
+.form-outline-style-v1 .form-group {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.form-outline-style-v1 .form-group label {
+  position: absolute;
+  top: 5px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.form-outline-style-v1 .form-group .form-control {
+  border: none;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-outline-style-v1 .form-group .form-control:active, .form-outline-style-v1 .form-group .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid white;
+}
+
+.form-outline-style-v1 .form-group label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 0;
+  color: #b3b3b3;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.form-outline-style-v1 .form-group.focus {
+  background: #fff;
+}
+
+.form-outline-style-v1 .form-group.field--not-empty label {
+  margin-top: -25px;
+}
+
+.form-control {
+  border: none;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-control:active, .form-control:focus {
+  background: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 767.98px) {
+  .contact-info-v1 {
+    text-align: center;
+  }
+}
+
+.contact-info-v1 > div {
+  margin-bottom: 30px;
+}
+
+.contact-info-v1 .contact-info-label {
+  font-size: 11px;
+  letter-spacing: .1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-info-v1 .contact-info-val {
+  font-size: 20px;
+  color: #fff;
+}
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  display: none;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: .1rem;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+}
+.btn.btn-outline-pill.btn-custom-light {
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn.btn-outline-pill.btn-custom-light:hover, .btn.btn-outline-pill.btn-custom-light:active, .btn.btn-outline-pill.btn-custom-light:focus {
+  border-color: #fff;
+}
+/* -------------------end of section 6 css--------------------------- */
+
+/* -----------------footer css-------------------------------- */
+.unslate_co--footer {
+  text-align: center;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.unslate_co--footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.unslate_co--footer a:hover {
+  color: #fff;
+}
+
+.unslate_co--footer .footer-site-logo {
+  margin-bottom: 30px;
+}
+
+.unslate_co--footer .footer-site-logo a {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.unslate_co--footer .footer-site-logo a span {
+  color: #D63447;
+}
+
+.unslate_co--footer .footer-site-social {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.unslate_co--footer .footer-site-social li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+@media (max-width: 991.98px) {
+  .unslate_co--footer .footer-site-social li {
+    display: block;
+  }
+}
+
+.unslate_co--footer .footer-site-social li a {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.unslate_co--footer .footer-site-social li a:hover, .unslate_co--footer .footer-site-social li a:focus {
+  color: #fff;
+}
+.unslate_co--footer {
+  width: 100%;
+  background-color: #191919;
+  color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+  height: 240px;
+}
+
+@media (max-width: 991.98px) {
+  .unslate_co--footer {
+    height: auto !important;
+    position: relative !important;
+  }
+}
+/* --------------------------end of footer css----------------------------- */

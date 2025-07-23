@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page</title>
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <style>
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c906271d-7184-4eec-83c9-b6d4c1a068ec/728874a6-eeda-400a-9bcf-a935a1408a4f/IN-en-20231127-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+
+
+        }
+
+        .logo {
+            margin: 25px;
+        }
+
+        .main {
+            margin: auto;
+            background-color: black;
+            height: 650px;
+            width: 450px;
+            opacity: 0.8;
+            border-radius: 4px;
+            top: 100px;
+        }
+
+        .form {
+            margin-left: 80px;
+        }
+
+        input {
+            height: 40px;
+            border-radius: 7px;
+            background-color: rgba(28, 25, 25, 0.134);
+            color: gray;
+
+        }
+
+        ::placeholder {
+            padding: 15px;
+            color: rgb(129, 122, 122);
+            font-size: 16px;
+        }
+
+        footer {
+            opacity: 0.8;
+            width: 100%;
+            background-color: black;
+            color: gray;
+            height: 250px;
+
+        }
+
+        li {
+            padding-right: 100px;
+            padding-top: 20px;
+        }
+
+        .footer {
+
+            margin-left: 250px;
+            margin-right: 0;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="https://www.netflix.com/"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="this is the logo"
+                        height="60px" width="180px"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="main">
+
+                <div class="form">
+                    <br><br>
+                    <form action="">
+                        <h1 style="font-size: 30px; color: white; font-family: Arial, Helvetica, sans-serif;">Sign In
+                        </h1>
+                        <input type="text" placeholder="Email or phone number" size="40" required>
+                        <br><br><br>
+                        <input type="password" required placeholder="Password" size="40">
+                        <br><br><br><br><br>
+
+                        <input type="submit" value="Sign In"
+                            style="height: 50px; width: 310px; background-color: red; font-size: 16px; color: white; opacity: 1 !important;">
+                        <br>
+                        <div style="margin-top: 10px;">
+                            <input type="checkbox" style="height: 17px; width: 17px;"><label for="remember me"><a
+                                    style="color: white; font-size: 15px;">Remember me</a></label>
+                            <a href="https://www.netflix.com/LoginHelp" style="color: white; margin-left: 120px;">Need help?</a>
+                            <br><br>
+                            <a style="color: gray; font-size: 18px;">New to Netflix?</a> <a href="https://www.netflix.com/"
+                                style="color: white; font-size: 18px;">Sign up now</a>
+                            <br><br>
+                            <a style="color: gray; font-size: 15px;">This page is protected by Google reCAPTCHA to</a>
+                            <br><a style="color: gray; font-size: 15px;">ensure you're not a bot.</a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br>
+    <footer>
+        <div class="footer">
+            <br>
+            <p>Questions? Call <a href="tel:000-800-919-1694" style="color: gray;">000-919-1694</a></p>
+        </div>
+        <div style="margin-left: 210px;">
+            <ul type=none style="float: left;">
+                <li><a href="https://help.netflix.com/support/412" style="color: grey;">FAQ</a></li>
+                <li><a href="https://www.netflix.com/in/Login#" style="color: grey;">Cookie Preferences</a></li>
+            </ul>
+
+            <ul type="none" style="float: left;">
+                <li><a href="https://help.netflix.com/" style="color: grey;">Help Center</a></li>
+                <li><a href="https://help.netflix.com/legal/corpinfo" style="color: grey;">Corporate Information</a></li>
+            </ul>
+            <ul type="none" style="float: left;">
+                <li><a href="https://help.netflix.com/legal/termsofuse" style="color: grey;">Terms of Use</a></li>
+            </ul>
+            <ul type="none" style="float: left;">
+                <li><a href="https://help.netflix.com/legal/privacy" style="color: grey;">Privacy</a></li>
+
+            </ul>
+        </div>
+        <br><br><br><br><br><br>
+        <div style="margin-left: 250px;">
+            <select name="lang" id="lang"
+                style="background-color: black; color: grey; height: 50px; width: 130px; text-align: center;">
+                <option value="eng">English</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </div>
+    </footer>
+
+</body>
+
+</html>
