@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "echo 'Static site - open index.html in browser or use a local server'",
-    "build": "echo 'No build step required for static site'"
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
