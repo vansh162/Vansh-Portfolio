@@ -308,6 +308,63 @@ body {
  margin-left: 530px;
  display: none;
 }
+.hov7{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov7spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin7{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov8{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov8spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin8{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
+.hov9{
+  background-color: black;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+.hov9spa{
+  position: absolute;
+  margin-top:310px;
+  margin-left: 20px;
+  font-weight: bolder;
+  display: none;
+}
+.lin9{
+ margin-top: -310px;
+ margin-left: 530px;
+ display: none;
+}
 
 /* -------------------end of section 2 css--------------------------- */
 
